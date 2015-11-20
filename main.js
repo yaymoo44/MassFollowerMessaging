@@ -27,7 +27,7 @@ function postmethod(){
 var start = confirm("Start?"); //Confirm
 console.log(start);  //Debug
 if(start == true){
-for (var i = 0; i<myFollowers.length(); i++){
+for (var i = 0; i<myFollowers.length; i++){
 	console.log("Looping...");  //Debug
 	var current = myFollowers[i];
 	$.ajax({
